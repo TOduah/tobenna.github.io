@@ -6,6 +6,7 @@ var speed = 30;
 
 
 function myFunction() {
+    myVar = setTimeout(showPage, 1000);
     type = setTimeout(typeWriter, 2000);
 }
 
