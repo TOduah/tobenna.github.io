@@ -1,1 +1,414 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Overpass|Overpass+Mono" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<head>
+    <!--<link rel="icon" type="image/" href="favicon.ico">-->
+    <title>Tobenna J. Oduah</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset=“UTF-8”>
+
+    <head>
+        <title>Tobenna J. Oduah</title>
+    </head>
+
+    <body class="projectspage" onload="myFunction()">
+        <nav style="background-color: transparent; box-shadow: none; padding-left: 1%;padding-right: 1%;">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo" id="test" style="color: #8a8593;">TO</a>
+                <ul id="nav-mobile" class="right">
+                    <div class="nav-wrapper">
+                        <div class="switch">
+                            <label>
+                                <i class="fas fa-lightbulb" style="color: #8a8593;"></i>
+                              <input type="checkbox" onclick="toggleDarkMode()">
+                              <span class="lever"></span>
+                              <i class="far fa-lightbulb" style="color: #8a8593;"></i>
+                            </label>
+                        </div>
+                    </div>
+                </ul>
+        </nav>
+        </div>
+
+        <div id="header" class="col hide-on-med-and-down m3 l2">
+            <div>
+                <ul class="section table-of-contents">
+                    <li><a href="#landing">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="https://docs.google.com/document/d/1SrxJTjLtaNk0t5V62zzgxsvuYPGaeBJS_ImWrV0watQ/edit?usp=sharing" class="resume">resume</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="landing" class="section scrollspy">
+            <div class="row" style="margin-top:200px;margin-bottom:20px;">
+                <div class="container">
+                    <h2 class="hello">Hello! I'm Tobenna.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <p class="flow-text" id="subheading"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="section scrollspy">
+
+            <div class="row">
+                <div class="container">
+                    <h2 class="header" style="font-size: 4.5rem;">Hello!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <p class="flow-text" id="bio">
+                        I'm Tobenna, a current Computer Engineering student at <a class="companylink" href="http://www.drexel.edu">Drexel
+        University</a>. </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="work" class="section scrollspy">
+            <div class="row" style="margin-top:170px;margin-bottom:20px;">
+                <div class="container">
+                    <h2 class="header">Work</h2>
+                </div>
+            </div>
+            <div style="height: 70vh;
+            overflow-y: auto;">
+                <div class="container">
+                    <div class="timeline">
+                        <div class="timeline-event">
+                            <div class="card timeline-content">
+                                <div class="card-panel">
+                                    <div class="card-content">
+                                        <span class="card-title project">Bresslergroup, <i>Junior Electrical/Embedded Software Engineer</i></span>
+                                        <p class="date"><b>September 2019 - March 2020</b></p>
+                                        <ul class="desc">
+                                            <li class="elem">Designed and developed real-time embedded systems for a variety of applications, including motor control, audio, and wireless applications using Bluetooth and WiFi protocols (CONFIDENTIAL).</li>
+                                            <li class="elem">Utilized Test-Driven Development (TDD) techniques to write code in Python during data sorting.</li>
+                                            <li class="elem">Wrote firmware for a medical device prototype in C and tested interaction with the target hardware.</li>
+                                            <li class="elem">Increased company's knowledge base on cellular IoT by incorporating research findings on a dev-board.</li>
+                                            <li class="elem">Worked on various cross-functional teams and completed multiple projects.</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                    <p class="tags">
+                                        <a class="lang-tag">&nbsp;&nbsp;Python&nbsp;&nbsp;</a>
+                                        <a class="tool-tag">&nbsp;&nbsp;C&nbsp;&nbsp;</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-badge red accent-1 white-text"></div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="card timeline-content">
+                                <div class="card-panel">
+                                    <div class="card-content">
+                                        <span class="card-title project">Drexel University, <i>ECE Ambassador</i></span>
+                                        <p class="date"><b>April 2019 - August 2019</b></p>
+                                        <ul class="desc">
+                                            <li class="elem">Discussed with 150 prospective engineering students and their families about the ECE department, including details about coursework, co-ops (internships), and insights on the average day of a student at the school. </li>
+                                        </ul>
+                                    </div>
+                                    <p class="tags">
+                                        <a class="lang-tag">&nbsp;&nbsp;Java&nbsp;&nbsp;</a>
+                                        <a class="lang-tag">&nbsp;&nbsp;Python&nbsp;&nbsp;</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-badge red accent-1 white-text"></div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="card timeline-content">
+                                <div class="card-panel">
+                                    <div class="card-content">
+                                        <span class="card-title project">University of Pennsylvania, <i>IT Support Intern</i></span>
+                                        <p class="date"><b>September 2018 - March 2019</b></p>
+                                        <ul class="desc">
+                                            <li class="elem">Troubleshooted network, printing, and email issues for over 100 devices.</li>
+                                            <li class="elem">Created document including common end-user issues and solutions to guide future interns.</li>
+                                        </ul>
+                                    </div>
+                                    <p class="tags">
+                                        <a class="lang-tag">&nbsp;&nbsp;PowerShell&nbsp;&nbsp;</a>
+                            
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-badge red accent-1 white-text"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div id="projects" class="section scrollspy">
+            <div class="row" style="margin-top:170px;margin-bottom:20px;">
+                <div class="container">
+                    <h2 class="header">Projects</h2>
+                </div>
+            </div>
+            <div style="height: 70vh;
+            overflow-y: auto;">
+                <div class="row">
+                    <div class="col s2"></div>
+                    <div class="col s12 m12 l4">
+                        <div class="card-panel">
+                            <div class="card-content">
+                                <span class="card-title project">NASA Hackathon</span><a class="btn-floating waves-effect waves-light salmon" href="https://github.com/TOduah/NASA_Space_Apps_COVID19" style="float:right;margin-right: 10px"><i
+                class="fab fa-github"></i></a>
+                                <p class="proj-desc ">A web appliation built during the NASA Space Apps COVID19 Challenge 2020. This web app shows trends in cases at a hotspot during the months of March-May.</p>
+                            </div>
+                            <p class="tags">
+                                <a class="lang-tag">&nbsp;&nbsp;HTML&nbsp;&nbsp;</a>
+                                <a class="lang-tag">&nbsp;&nbsp;CSS&nbsp;&nbsp;</a>
+                                <a class="lang-tag">&nbsp;&nbsp;Python&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Flask&nbsp;&nbsp;</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="card-panel">
+                            <div class="card-content">
+                                <span class="card-title project">1984 Graphics</span><a class="btn-floating waves-effect waves-light salmon" href="https://github.com/rajshritotla/1984-generative-graphics" style="float:right;margin-right: 10px"><i
+                class="fab fa-github"></i></a>
+                                <p class="proj-desc ">Developed application for theatre productions in which allowed non-technical users to create graphics that could interact in real-time with actors in a theatre production.</p>
+                            </div>
+                            <p class="tags">
+                                <a class="lang-tag">&nbsp;&nbsp;Processing&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;OpenCV&nbsp;&nbsp;</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s2"></div>
+                    <div class="col s12 m12 l4">
+                        <div class="card-panel">
+                            <div class="card-content">
+                                <span class="card-title project">College API</span><a class="btn-floating waves-effect waves-light salmon" href="https://github.com/TOduah/college_api" style="float:right;margin-right: 10px"><i
+                class="fab fa-github"></i></a> <a class="btn-floating waves-effect waves-light salmon" href="http://collegesapi.herokuapp.com/" style="float:right;margin-right: 10px"><i
+                class="fas fa-globe"></i></a>
+                                <p class="proj-desc ">An API using the Flask Framwork that lets users access basic information about colleges. Helpful for students applying to colleges.</p>
+                            </div>
+                            <p class="tags">
+                                <a class="lang-tag">&nbsp;&nbsp;HTML&nbsp;&nbsp;</a>
+                                <a class="lang-tag">&nbsp;&nbsp;CSS&nbsp;&nbsp;</a>
+                                <a class="lang-tag">&nbsp;&nbsp;Python&nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Flask &nbsp;&nbsp;</a>
+                                <a class="tool-tag">&nbsp;&nbsp;Heroku&nbsp;&nbsp;</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="section scrollspy">
+            <div class="row" style="margin-top:170px;margin-bottom:20px;">
+                <div class="container">
+                    <h2 class="header">Skills</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <h2 class="hello" style="text-align: center;">Languages</h2>
+                    <div class="col s12 m3">
+                        <div class="center">
+
+                            <i class="medium devicon-python-plain" style="color:#72f1fa"></i>
+                            <p class="icon-caption">Python</p>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="col s12 m3">
+                        <div class="center">
+
+                            <i class="medium devicon-c-plain" style="color:#72f1fa"></i>
+                            <p class="icon-caption">C</p>
+                        </div>
+                    </div>
+                
+                    <div class="col s12 m3">
+                        <div class="center">
+
+                            <i class="medium devicon-javascript-plain" style="color:#72f1fa"></i>
+                            <p class="icon-caption">Javascript</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="center">
+
+                            <i class="medium fas fa-code" style="color:#72f1fa"></i>
+                            <p class="icon-caption">HTML/CSS</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="center">
+
+                            <i class="medium fas fa-dollar-sign" style="color:#72f1fa"></i>
+                            <p class="icon-caption">Bash Scripting</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="row">
+                    <div class="container">
+                        <h2 class="hello" style="text-align: center;">Frameworks/Libraries</h2>
+                        <div class="col s12 m3">
+                            <div class="center">
+
+                                <i class="medium fas fa-flask" style="color:#72f1fa"></i>
+                                <p class="icon-caption">Flask</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m3">
+                            <div class="center">
+
+                                <i class="medium devicon-react-original" style="color:#72f1fa"></i>
+                                <p class="icon-caption">React</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="section">
+                <div class="row">
+                    <div class="container">
+                        <h2 class="hello" style="text-align: center;">Tools</h2>
+                        <div class="col s12 m3">
+                            <div class="center">
+
+                                <i class="medium devicon-git-plain" style="color:#72f1fa"></i>
+                                <p class="icon-caption">Git</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m3">
+                            <div class="center">
+
+                                <i class="medium devicon-github-plain" style="color:#72f1fa"></i>
+                                <p class="icon-caption">Github</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m3">
+                            <div class="center">
+
+                                <i class="medium devicon-mysql-plain" style="color:#72f1fa"></i>
+                                <p class="icon-caption">MySQL</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m3">
+                            <div class="center">
+
+                                <i class="medium devicon-mongodb-plain" style="color:#72f1fa"></i>
+                                <p class="icon-caption">MongoDB</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="contact" class="section scrollspy">
+            <div class="row" style="margin-top:170px;margin-bottom:20px;">
+                <div class="container">
+                    <h2 class="header">Contact</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <p class="chat"> Feel free to reach out!</p>
+                    <p class="chat" style="text-align: center;"><a href="mailto:tjlite81@gmail.com" class="email">&nbsp;Say Hello&nbsp;</a></p>
+                    <div class="hide-on-large-only center-align">
+                        <a class="btn-floating red accent-1" href="https://github.com/TOduah" class="material-icons"><i
+                        class="fab fa-github"></i></a>
+                        <a class="btn-floating red accent-1" href="https://www.linkedin.com/in/tobenna-o/"><i
+                        class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <p><a style="color: #72f1fa;" class="center-align">Tobenna J. Oduah</a></p>
+        </div>
+
+
+        <div id="social" class="hide-on-med-and-down">
+            <div class="fixed-action-btn">
+                <a>
+                    <img src="images/profile_pic.png" style="width: 60px; border-radius: 50%" class="me">
+                </a>
+                </a>
+                <ul>
+                    <li><a class="btn-floating red accent-1" href="https://github.com/TOduah" class="material-icons"><i
+            class="fab fa-github"></i></a></li>
+                    <li><a class="btn-floating red accent-1" href="https://www.linkedin.com/in/tobenna-o/"><i
+            class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="js/custom.js"></script>
+
+        <!-- Script to make navbar stick -->
+        <script>
+            $(document).ready(function() {
+                $('.scrollspy').scrollSpy();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('.fixed-action-btn').floatingActionButton();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('.tabs').tabs();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('.collapsible').collapsible();
+            });
+        </script>
+    </body>
+
+    
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+
+</html>

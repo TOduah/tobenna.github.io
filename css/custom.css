@@ -1,0 +1,502 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#top {
+  width: 100%;
+  /* text-align: center; */
+  font-family: 'Montserrat', sans-serif;
+  color: #8a8593;
+  display: none;
+}
+
+a.resume {
+  color: #72f1fa
+}
+
+a.resume:hover {
+  color: #99eff5;
+}
+
+#icons {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.icon {
+  color: #72f1fa;
+}
+
+.icon:hover {
+  color: #a5f3f8;
+}
+
+.table-of-contents a:hover {
+  color: #8a8593;
+  padding-left: 15px;
+  border-left: 1px solid #72f1fa;
+}
+
+.table-of-contents a.active {
+  font-weight: 500;
+  padding-left: 14px;
+  border-left: 2px solid #72f1fa;
+}
+
+.brand-logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #8a8593;
+}
+
+.hello {
+  /* margin-left:60px !important; */
+  text-align: left;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  color: #8a8593;
+}
+
+#subheading {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 2rem !important;
+  color: #72f1fa;
+  /* margin-left:60px !important; */
+  margin-top: 0px;
+  /* line-height: 20px */
+  margin-right: 30%;
+}
+
+a.companylink {
+  color: #9FA8DA;
+}
+
+a.companylink:hover {
+  color: #8a8593;
+}
+
+.header {
+  font-size: 4.5rem;
+  color: #8a8593;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#landing {
+  text-align: left;
+  margin-bottom: 280px;
+  display: none;
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  ;
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+.link {
+  color: #72f1fa;
+}
+
+#bio,
+.chat {
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #72f1fa;
+}
+
+.email {
+  color: #8a8593
+}
+
+.email:hover,
+.link:hover {
+  color: #97eff5;
+}
+
+#header {
+  position: fixed;
+  top: 250px;
+  margin-left: 50px;
+  background-color: transparent;
+  z-index: 1000;
+  font-family: 'Montserrat', sans-serif;
+  display: none
+}
+
+#nav {
+  text-align: center;
+  float: right;
+  padding-right: 30px;
+  padding-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  background: transparent;
+  box-shadow: none;
+}
+
+#home {
+  padding-bottom: 200px;
+}
+
+.card {
+  text-align: center;
+}
+
+a.lang-tag {
+  color: #17A589;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a.tool-tag {
+  color: #9FA8DA;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a.soft-tag {
+  color: #68a8ff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.salmon {
+  background-color: #72f1fa;
+}
+
+.salmon:hover {
+  background-color: #a1f6fc;
+}
+
+.project {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #72f1fa !important;
+}
+
+.proj-desc {
+  font-family: 'Montserrat', sans-serif;
+  color: #8a8593 !important;
+}
+
+.card-content p {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#footer {
+  font-family: 'Montserrat', sans-serif;
+  height: 75px;
+  margin-top: 100px;
+  padding-top: 10px;
+  width: 100%;
+  color: #72f1fa;
+  text-align: center;
+  display: none
+}
+
+p.job {
+  font-size: 2rem !important;
+  color: #8a8593;
+}
+
+p.date {
+  font-family: 'Montserrat', sans-serif;
+  color: #F3CD86;
+  font-size: .8rem
+}
+
+p.tags {
+  line-height: 2;
+}
+
+ul.desc {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  list-style-type: square !important;
+  color: #8a8593;
+}
+
+li.elem {
+  list-style-type: square !important;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.custom-btn {
+  text-align: center;
+  border-radius: 25px;
+  font-size: 1.15rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 32px;
+  position: relative;
+}
+
+.img {
+  width: 50%;
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+      bottom: -100px;
+      opacity: 0
+  }
+  to {
+      bottom: 0px;
+      opacity: 1
+  }
+}
+
+@keyframes animatebottom {
+  from {
+      bottom: -100px;
+      opacity: 0
+  }
+  to {
+      bottom: 0;
+      opacity: 1
+  }
+}
+
+
+.icon-caption {
+  font-family: 'Montserrat', sans-serif;
+  color: #8a8593;
+}
+
+#about,
+#work,
+#projects,
+#contact,
+#skills {
+  display: none;
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+#company {
+  font-family: 'Montserrat', sans-serif;
+  color: #72f1fa;
+  font-size: 30px;
+  width: 50%;
+  float: left;
+}
+
+#title {
+  font-family: 'Montserrat', sans-serif;
+  color: #9FA8DA;
+  font-size: 20px;
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+#descp {
+  display: none;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+      transform: rotate( 0.0deg)
+  }
+  10% {
+      transform: rotate(-10.0deg)
+  }
+  20% {
+      transform: rotate( 12.0deg)
+  }
+  30% {
+      transform: rotate(-10.0deg)
+  }
+  40% {
+      transform: rotate( 9.0deg)
+  }
+  50% {
+      transform: rotate( 0.0deg)
+  }
+  100% {
+      transform: rotate( 0.0deg)
+  }
+}
+
+#social {
+  display: none;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(128, 255, 244);
+      ;
+  }
+  70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(128, 255, 244)
+  }
+  100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(128, 255, 244)
+  }
+}
+
+.me {
+  box-shadow: 0 0 0 0 rgb(128, 255, 244);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+.me:hover {
+  animation: none;
+}
+
+.dark-mode {
+  background-color: #333333;
+}
+
+.card-panel,
+.tabs {
+  background-color: transparent;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+  background-color: #72f1fa;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+  background-color: #72f1fa;
+}
+
+.switch label .lever {
+  background-color: #8a8593;
+}
+
+#test {
+  display: none;
+}
+
+
+.timeline {
+  position: relative;
+}
+
+.timeline .timeline-event {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.timeline .timeline-event .timeline-content {
+  position: relative;
+  width: calc(50% - 50px);
+  text-align: left;
+  background-color: transparent;
+}
+
+.timeline .timeline-event::before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: calc(40% - 30px);
+  position: absolute;
+  background: #d2d2d2;
+  left: calc(50% - 1px);
+  top: 0;
+}
+
+.timeline .timeline-event::after {
+  display: block;
+  content: "";
+  width: 2px;
+  height: calc(60% - 40px);
+  position: absolute;
+  background: #d2d2d2;
+  left: calc(50% - 1px);
+  top: calc(50% + 30px);
+}
+
+.timeline .timeline-event:first-child::before {
+  display: none;
+}
+
+.timeline .timeline-event:last-child::after {
+  display: none;
+}
+
+.timeline .timeline-event:nth-child(even) .timeline-content {
+  margin-left: calc(50% + 50px);
+}
+
+.timeline .timeline-event:nth-child(odd) .timeline-content {
+  margin-left: 0;
+}
+
+.timeline .timeline-badge {
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #d2d2d2;
+  top: calc(45% - 6.5px);
+  right: calc(50% - 8px);
+  border-radius: 50%;
+  text-align: center;
+  cursor: default;
+}
+
+.timeline .timeline-badge i {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+@media (max-width: 600px) {
+  .timeline .timeline-event .timeline-content {
+      width: calc(100% - 70px);
+  }
+  .timeline .timeline-event::before {
+      left: 19px;
+  }
+  .timeline .timeline-event::after {
+      left: 19px;
+  }
+  .timeline .timeline-event:nth-child(even) .timeline-content {
+      margin-left: 70px;
+  }
+  .timeline .timeline-event:nth-child(odd) .timeline-content {
+      margin-left: 70px;
+  }
+  .timeline .timeline-badge {
+      left: 2.5%;
+  }
+}
