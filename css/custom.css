@@ -126,7 +126,7 @@ a.companylink:hover {
   background-color: transparent;
   z-index: 1000;
   font-family: 'Montserrat', sans-serif;
-  display: none
+  display: none;
 }
 
 #nav {
