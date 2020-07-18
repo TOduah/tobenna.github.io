@@ -1,11 +1,12 @@
 var myVar;
 var type;
-
+var i = 0;
+var txt = "I'm a Computer Engineering Student and Software Developer";
+var speed = 30; 
 
 
 function myFunction() {
-    myVar = setTimeout(showPage, 3500);
-    type = setTimeout(typeWriter, 4000);
+    type = setTimeout(typeWriter, 2000);
 }
 
 function showPage() {
@@ -22,9 +23,6 @@ function showPage() {
 }
 
 
- var i = 0;
- var txt = "I'm a Computer Engineering Student and Software Developer";
- var speed = 30; 
 
 function typeWriter() {
     if (i < txt.length) {
