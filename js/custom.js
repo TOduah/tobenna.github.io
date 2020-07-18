@@ -1,8 +1,6 @@
 var myVar;
 var type;
-var i = 0;
-var txt = "I'm a Computer Engineering Student and Software Developer";
-var speed = 30; 
+
 
 
 function myFunction() {
@@ -23,10 +21,10 @@ function showPage() {
     document.getElementById("social").style.display = "block";
 }
 
-function toggleDarkMode() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
- }
+
+ var i = 0;
+ var txt = "I'm a Computer Engineering Student and Software Developer";
+ var speed = 30; 
 
 function typeWriter() {
     if (i < txt.length) {
@@ -35,3 +33,8 @@ function typeWriter() {
         setTimeout(typeWriter, speed);
     }
 }
+
+function toggleDarkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
