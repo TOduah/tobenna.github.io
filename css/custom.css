@@ -10,7 +10,7 @@ html {
 }
 
 a.resume {
-  color: #72f1fa
+  color: #1698a1
 }
 
 a.resume:hover {
@@ -23,7 +23,7 @@ a.resume:hover {
 }
 
 .icon {
-  color: #72f1fa;
+  color: #1698a1;
 }
 
 .icon:hover {
@@ -33,13 +33,13 @@ a.resume:hover {
 .table-of-contents a:hover {
   color: #8a8593;
   padding-left: 15px;
-  border-left: 1px solid #72f1fa;
+  border-left: 1px solid #1698a1;
 }
 
 .table-of-contents a.active {
   font-weight: 500;
   padding-left: 14px;
-  border-left: 2px solid #72f1fa;
+  border-left: 2px solid #1698a1;
 }
 
 .brand-logo {
@@ -62,7 +62,7 @@ a.resume:hover {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   font-size: 2rem !important;
-  color: #72f1fa;
+  color: #1698a1;
   /* margin-left:60px !important; */
   margin-top: 0px;
   /* line-height: 20px */
@@ -98,7 +98,7 @@ a.companylink:hover {
 }
 
 .link {
-  color: #72f1fa;
+  color: #1698a1;
 }
 
 #bio,
@@ -106,7 +106,7 @@ a.companylink:hover {
   text-align: left;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
-  color: #72f1fa;
+  color: #1698a1;
 }
 
 .email {
@@ -162,7 +162,7 @@ a.soft-tag {
 }
 
 .salmon {
-  background-color: #72f1fa;
+  background-color: #1698a1;
 }
 
 .salmon:hover {
@@ -172,7 +172,7 @@ a.soft-tag {
 .project {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
-  color: #72f1fa !important;
+  color: #1698a1 !important;
 }
 
 .proj-desc {
@@ -195,7 +195,7 @@ a.soft-tag {
   margin-top: 100px;
   padding-top: 10px;
   width: 100%;
-  color: #72f1fa;
+  color: #1698a1;
   text-align: center;
   display: none
 }
@@ -297,7 +297,7 @@ li.elem {
 
 #company {
   font-family: 'Montserrat', sans-serif;
-  color: #72f1fa;
+  color: #1698a1;
   font-size: 30px;
   width: 50%;
   float: left;
@@ -390,11 +390,11 @@ span.wave {
 }
 
 .switch label input[type=checkbox]:checked+.lever {
-  background-color: #72f1fa;
+  background-color: #1698a1;
 }
 
 .switch label input[type=checkbox]:checked+.lever:after {
-  background-color: #72f1fa;
+  background-color: #1698a1;
 }
 
 .switch label .lever {
