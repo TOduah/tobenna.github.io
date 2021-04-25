@@ -1,7 +1,7 @@
 var myVar;
 var type;
 var i = 0;
-var txt = "I'm a Computer Engineering Student and Software Developer.";
+var txt = "I'm a Computer Engineering Student and Software Engineer.";
 var speed = 30; 
 
 
