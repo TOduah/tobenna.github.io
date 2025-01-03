@@ -1,0 +1,19 @@
+{
+  "name": "toduah.github.io",
+  "version": "1.0.0",
+  "description": "Website Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TOduah/toduah.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TOduah/toduah.github.io/issues"
+  },
+  "homepage": "https://github.com/TOduah/toduah.github.io#readme"
+}
